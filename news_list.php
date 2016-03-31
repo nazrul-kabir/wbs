@@ -52,19 +52,17 @@ if ($lastpage > 1) {
         }
     } elseif ($lastpage > 5 + ($adjacents * 2)) {
         if ($page < 1 + ($adjacents * 2)) {
-            for ($counter = 1;
-            $counter < 4 + ($adjacents * 2);
-            $counter++) {
-            if ($counter == $page)
-            $pagination.= "<li class='active'><a href='#' >$counter</a></li>";
-            else
-            $pagination.= "<li><a href=\"$targetpage?page=$counter\">$counter</a></li>";
+            for ($counter = 1; $counter < 4 + ($adjacents * 2); $counter++) {
+                if ($counter == $page)
+                    $pagination.= "<li class='active'><a href='#' >$counter</a></li>";
+                else
+                    $pagination.= "<li><a href=\"$targetpage?page=$counter\">$counter</a></li>";
             }
             $pagination.= "<li></li>";
             $pagination.= "<li><a href=\"$targetpage?page=$lpm1\">$lpm1</a></li>";
             $pagination.= "<li><a href=\"$targetpage?page=$lastpage\">$lastpage</a></li>";
-            }
-            elseif ($lastpage - ($adjacents * 2) > $page & $page > ($adjacents * 2)) {
+        }
+        elseif ($lastpage - ($adjacents * 2) > $page & $page > ($adjacents * 2)) {
             $pagination.= "<li><a href=\"$targetpage?page=1\">1</a></li>";
             $pagination.= "<li><a href=\"$targetpage?page=2\">2</a></li>";
             $pagination.= "<li></li>";
@@ -98,12 +96,21 @@ if ($lastpage > 1) {
         $pagination.= "</ul>\n";
     }
 }
+
+$arrayService = array();
+$sql = "SELECT * FROM services WHERE service_status='Active' ORDER BY service_id DESC";
+$result = mysqli_query($con, $sql);
+if ($result) {
+    while ($obj = mysqli_fetch_object($result)) {
+        $arrayService[] = $obj;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>News List | Water Bond Shipyard</title>
+        <title>News List | WATERBOND SHIPYARD BD LTD.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -124,45 +131,45 @@ if ($lastpage > 1) {
         <section class="sec-padding blog-page single-post-page ">
             <div class="thm-container">
                 <div class="row">
+                     <?php if (count($arrayService) > 0): ?>
                     <div class="col-md-4 pull-right">
-
+                        
                         <div class="single-sidebar-widget">
                             <div class="sec-title">
                                 <h2><span>OUR SERVICES</span></h2>
                             </div>
                             <div class="categories">
                                 <ul>
-                                    <li class="active"><a href="services-building.php">Ship Building</a></li>
-                                    <li><a href="services-repair.php">Ship Repair</a></li>
-                                    <li><a href="services-engineering.php">General Engineering</a></li>
-                                    <li><a href="services-sales.php">After Sales</a></li>
-                                    <li ><a href="services-landing.php">Landing Station</a></li>
+                                     <?php foreach ($arrayService AS $service): ?>
+                                    <li><a href="services_details.php?id=<?php echo $service->service_id; ?>"><?php echo $service->service_title; ?></a></li>
+                                    <?php endforeach; ?>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    <?php endif; ?>
                     <div class="col-md-8 pull-left">
                         <?php if (count($array) > 0): ?>
-                        <?php foreach($array AS $news): ?>
-                            <div class="single-post-wrapper">		
-                                <article class="single-blog-post img-cap-effect">
-                                    <div class="">
-                                        <img src="<?php echo $config['IMAGE_UPLOAD_URL'] . '/news_image/' . $news->news_image; ?>" alt="<?php echo $news->news_title; ?>" class="img-responsive"/>           
-                                    </div>
-                                    <div class="meta-info">
-                                        <div class="date-box">
-                                            <div class="inner-box">
-                                                <b><?php echo date('d', strtotime($news->news_created_on)); ?></b>
-                                                <?php echo date('M', strtotime($news->news_created_on)); ?>
+                            <?php foreach ($array AS $news): ?>
+                                <div class="single-post-wrapper">		
+                                    <article class="single-blog-post img-cap-effect">
+                                        <div class="">
+                                            <img src="<?php echo $config['IMAGE_UPLOAD_URL'] . '/news_image/' . $news->news_image; ?>" alt="<?php echo $news->news_title; ?>" class="img-responsive"/>           
+                                        </div>
+                                        <div class="meta-info">
+                                            <div class="date-box">
+                                                <div class="inner-box">
+                                                    <b><?php echo date('d', strtotime($news->news_created_on)); ?></b>
+                                                    <?php echo date('M', strtotime($news->news_created_on)); ?>
+                                                </div>
+                                            </div>
+                                            <div class="content-box">
+                                                <a href="news-details.php?id=<?php echo $news->news_id; ?>"><h3><?php echo $news->news_title; ?></h3></a>
                                             </div>
                                         </div>
-                                        <div class="content-box">
-                                            <h3><?php echo $news->news_title; ?></h3>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        <?php endforeach; ?>
+                                    </article>
+                                </div>
+                            <?php endforeach; ?>
                         <?php endif; ?>
                         <?php echo $pagination; ?>
                     </div>
@@ -178,7 +185,7 @@ if ($lastpage > 1) {
                             <p>Contact us now to get quote for all your global <br>shipping and cargo need.</p>
                         </div>
                         <div class="col-md-6">
-                            <a class="thm-btn" href="contact.php">Contact Us <i class="fa fa-arrow-circle-right"></i></a>
+                            <a class="thm-btn" href="contact-us.php">Contact Us <i class="fa fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
                 </div>

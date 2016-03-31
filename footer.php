@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 footer-widget">
                 <div class="about-widget">
-                    <a href="index.php"><img src="images/wbs-logo.png" alt="Water Bond Shipyard"/></a>
-                    <p>Water Bond Shipyard, known as one of the leading shipbuilder of Bangladesh.</p>
+                    <a href="index.php"><img src="images/wbs-logo.png" alt="Waterbond Shipyard"/></a>
+                    <p>WATERBOND SHIPYARD BD LTD., known as one of the leading shipbuilder of Bangladesh.</p>
                     <a href="about.php">Read More <i class="fa fa-angle-double-right"></i></a>
                     <ul class="social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -60,9 +60,9 @@
                             <i class="fa fa-map-marker"></i>
                         </div>
                         <div class="text-box">
-                            <p><b>Water Bond Shipyard Ltd.</b></p>
-                            <p>House: 27, Road: 3, Nikunja 1</p>
-                            <p>Dhaka, Bangladesh</p>
+                            <p><b>WATERBOND SHIPYARD BD LTD.</b></p>
+                            <p>House: 7, Road: 3B, Nikunja-1</p>
+                            <p>Dhaka-1229, Bangladesh</p>
                         </div>
                     </li>
                     <li>
@@ -97,7 +97,7 @@
 <section class="bottom-bar">
     <div class="thm-container clearfix">
         <div class="pull-left">
-            <p>Copyright © Water Bond Shipyard 2016. All rights reserved.</p>
+            <p>Copyright © WATERBOND SHIPYARD BD LTD. 2016. All rights reserved.</p>
         </div>
         <div class="pull-right">
             <p>Created by: <a href="http://www.arkhairul.com" target="_blank">MK IT Geeks</a></p>

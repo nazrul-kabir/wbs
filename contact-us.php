@@ -34,7 +34,7 @@ if (isset($_POST['btnSave'])) {
 <html lang="en">
    <head>
         <meta charset="UTF-8">
-        <title>Contact | Water Bond Shipyard</title>
+        <title>Contact | WATERBOND SHIPYARD BD LTD.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -84,7 +84,7 @@ if (isset($_POST['btnSave'])) {
                                         <i class="icon icon-Pointer"></i>
                                     </div>
                                     <div class="content">
-                                        <p>Water Bond Shipyard Ltd.</p>
+                                        <p>Waterbond Shipyard Ltd.</p>
                                         <p>House: 27, Road: 3, Nikunja 1</p>
                                         <p>Dhaka, Bangladesh</p>
                                     </div>
@@ -114,7 +114,7 @@ if (isset($_POST['btnSave'])) {
             <div class="container">
                 <div class="col-md-12">				
                     <p style="height: 10px;"></p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7381.271642674297!2d91.87483272685705!3d22.329608765569727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad26d18d9b36c5%3A0x3b693e7b1b5aa8c4!2sLakhera%2C+Bangladesh!5e0!3m2!1sen!2sus!4v1459141839337" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14599.403311008859!2d90.417973!3d23.823903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c65a3d9b9649%3A0xff4da0194c977480!2sNikunja+1%2C+Dhaka%2C+Bangladesh!5e0!3m2!1sen!2sbd!4v1459397858538" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </section>

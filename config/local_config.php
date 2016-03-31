@@ -9,18 +9,18 @@ $host = $_SERVER['HTTP_HOST'];
 $domain = str_replace('www.', '', str_replace('http://', '', $host));
 
 if ($domain == 'arkhairul.com') {
-    $config['SITE_NAME'] = 'WATER BOND SHIPYARD ';
-    $config['ADMIN_SITE_NAME'] = 'WBS | ADMIN PANEL';
-    $config['BASE_URL'] = 'http://arkhairul.com/ibfb/';
-    $config['ROOT_DIR'] = '/home/arkhairul/public_html/ibfb/';
+    $config['SITE_NAME'] = 'WATERBOND SHIPYARD ';
+    $config['ADMIN_SITE_NAME'] = 'WATERBOND SHIPYARD | ADMIN PANEL';
+    $config['BASE_URL'] = 'http://arkhairul.com/wbs/';
+    $config['ROOT_DIR'] = '/home/arkhairul/public_html/wbs/';
     $config['DB_TYPE'] = 'mysql';
     $config['DB_HOST'] = 'localhost';
     $config['DB_NAME'] = 'arkhairu_wbs';
-    $config['DB_USER'] = 'arkhairu_lila';
-    $config['DB_PASSWORD'] = 'Pandora*12015';
+    $config['DB_USER'] = 'arkhairu_water';
+    $config['DB_PASSWORD'] = 'Shipyard*12016';
 } elseif ($domain == '192.168.0.102') {
-    $config['SITE_NAME'] = 'WATER BOND SHIPYARD ';
-    $config['ADMIN_SITE_NAME'] = 'WBS | ADMIN PANEL';
+    $config['SITE_NAME'] = 'WATERBOND SHIPYARD ';
+    $config['ADMIN_SITE_NAME'] = 'WATERBOND SHIPYARD | ADMIN PANEL';
     $config['BASE_URL'] = 'http://192.168.0.105/ibfb/';
     $config['ROOT_DIR'] = '/shipyard/';
     $config['DB_TYPE'] = 'mysql';
@@ -29,8 +29,8 @@ if ($domain == 'arkhairul.com') {
     $config['DB_USER'] = 'root';
     $config['DB_PASSWORD'] = '';
 } else {
-    $config['SITE_NAME'] = 'WATER BOND SHIPYARD ';
-    $config['ADMIN_SITE_NAME'] = 'WBS | ADMIN PANEL';
+    $config['SITE_NAME'] = 'WATERBOND SHIPYARD ';
+    $config['ADMIN_SITE_NAME'] = 'WATERBOND SHIPYARD | ADMIN PANEL';
     $config['BASE_URL'] = 'http://localhost/shipyard/';
     $config['ROOT_DIR'] = '/shipyard/';
     $config['DB_TYPE'] = 'mysql';

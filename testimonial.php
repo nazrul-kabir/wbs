@@ -12,7 +12,7 @@
                                 “							
                             </div>
                             <div class="title">
-                                <h3>Water Bond Shipyard is Great</h3>
+                                <h3>WATERBOND SHIPYARD BD LTD. is Great</h3>
                             </div>
                         </div>						
                         <div class="content">							

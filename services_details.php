@@ -31,7 +31,7 @@ if ($result) {
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title><?php echo $service_title; ?> | Water Bond Shipyard</title>
+        <title><?php echo $service_title; ?> | WATERBOND SHIPYARD BD LTD.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>

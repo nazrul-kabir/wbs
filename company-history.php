@@ -1,8 +1,11 @@
+<?php
+include './config/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Company History | Water Bond Shipyard</title>
+        <title>Company History | WATERBOND SHIPYARD BD LTD.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -25,7 +28,7 @@
                     <div class="col-md-12">
                         <div class="sec-title">
                             <h2><span>Company History</span></h2>
-                            <p>End-to-end solutions for complex build projects, on and offshore. Water Bond is more than just Bangladesh’s largest shipbuilder. 
+                            <p>End-to-end solutions for complex build projects, on and offshore. Waterbond is more than just Bangladesh’s largest shipbuilder. 
                                 We provide value-added, specialized products and services where we leverage our high-capacity fabrication capabilities to provide complex, 
                                 engineered solutions to meet our clients’ needs.</p>                        
                             <p>Our capability to provide end-to-end turnkey solutions as well as our strategic location makes 

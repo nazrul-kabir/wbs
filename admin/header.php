@@ -1,6 +1,6 @@
 
 <header class="main-header">
-    <a class="logo" href="<?php echo baseUrl('admin/view/dashboard.php'); ?>"><img style="width: 178px;margin-top: -3px;height: 45px;" src="<?php echo baseUrl('images/wbs-logo.png'); ?>"></a>
+    <a class="logo" href="<?php echo baseUrl('admin/view/dashboard.php'); ?>"><img style="width: 216px;margin-top: -3px;height: 45px;" src="<?php echo baseUrl('images/wbs-logo.png'); ?>"></a>
     <nav class="navbar navbar-static-top" role="navigation">
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span>

@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>About | Water Bond Shipyard</title>
+        <title>About | WATERBOND SHIPYARD BD LTD.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -25,10 +25,10 @@
             <div class="thm-container">
                 <div class="sec-title">
                     <h2><span>Who We Are</span></h2>
-                    <p>Founded in 2015, it was the beginning of a long and rich history. Since its inception, Water Bond has built over 
+                    <p>Founded in 2015, it was the beginning of a long and rich history. Since its inception, Waterbond has built over 
                         hundred vessels, from steamboats to diesel-electric oilfield services vessels with advanced dynamic positioning systems and naval 
                         vessels with complex combat systems.</p>       
-                    <p>Water Bond has built, converted, repaired and upgraded almost every form of vessel, rig and offshore platform including tankers, bulk carriers,
+                    <p>Waterbond has built, converted, repaired and upgraded almost every form of vessel, rig and offshore platform including tankers, bulk carriers,
                         containerships, fishing vessels, ferries, naval vessels and jack-up and semi-submersible drilling and production platforms.</p>       
                     <p>With its strong engineering disciplines and fully integrated, self-sufficient fabrication facilities, Davie’s versatility has enabled 
                         it to leverage the best practices and transferable skills acquired from two centuries of shipbuilding to provide products and services for
@@ -47,7 +47,7 @@
                                     </div>						
                                 </header>
                                 <article>
-                                    <p>Water Bond Shipyard Ltd is to develop facilities and infrastructure to satisfy the needs and demands of all national and 
+                                    <p>Waterbond Shipyard Ltd is to develop facilities and infrastructure to satisfy the needs and demands of all national and 
                                         international maritime sectors by providing highest quality services to build and repair all types of marine and class 
                                         vessel/craft by the year 2020.</p>
                                 </article>
@@ -64,7 +64,7 @@
                                     </div>						
                                 </header>
                                 <article>
-                                    <p>Water Bond Shipyard Ltd is to develop manufacturing and building ships of at least 6000 DWT by the year 2020 and upgrade its present 
+                                    <p>Waterbond Shipyard Ltd is to develop manufacturing and building ships of at least 6000 DWT by the year 2020 and upgrade its present 
                                         infrastructure and human resources up to the international shipbuilding standard.</p>
                                 </article>
                             </div>

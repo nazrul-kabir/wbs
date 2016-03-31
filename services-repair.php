@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Services | Water Bond Shipyard</title>
+        <title>Services | Waterbond Shipyard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -43,7 +43,7 @@
                             </div>
                             <div class="sec-title">
                                 <h2><span>Ship Repair</span></h2>
-                                <p>With steel fabrication shops, outfit and machine shops and blast and paint operations, Water Bond Shipbuilding is well equipped to turn your next scheduled docking into a truly satisfying experience.</p>
+                                <p>With steel fabrication shops, outfit and machine shops and blast and paint operations, Waterbond Shipbuilding is well equipped to turn your next scheduled docking into a truly satisfying experience.</p>
                                 <p>You will benefit from our full range of services to support your routine drydocking, refit or conversion, including</p>
                                 <ul>
                                     <li>Docking & wharfage </li>

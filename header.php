@@ -2,7 +2,7 @@
     <div class="thm-container clearfix">
         <div class="logo pull-left">
             <a href="index.php">
-                <img src="images/wbs-logo.png" alt="">
+                <img src="images/wbs-logo.png" alt="Logo">
             </a>
         </div>
         <div class="header-info pull-right">

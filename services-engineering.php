@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Services | Water Bond Shipyard</title>
+        <title>Services | WATERBOND SHIPYARD BD LTD.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -43,7 +43,7 @@
                             </div>
                             <div class="sec-title">
                                 <h2><span>General Engineering</span></h2>
-                                <p>As a full-service solution provider, Water Bong Shipbuilding Inc. can provide you with an array of Engineering, In Service Support and Supply Support Services.</p>
+                                <p>As a full-service solution provider, Waterbond Shipbuilding Inc. can provide you with an array of Engineering, In Service Support and Supply Support Services.</p>
                                 <p>From initial concept development to final delivery, Fleetway offers our customers a qualified team of engineers, technologists and designers to fully serve your requirements using the latest technology and software. Capabilities and experience include vessel design and conversions as well as marine and offshore structures and modules.</p>
                                 <p>In its capacity as Class Design Agent and Class Technical Data Agent for Canada's Frigates and Destroyers, Fleetway develops all of the Engineering Design Changes, including those for the mid-life modernization refits, manages the configuration and updates all of the drawings and technical publications and undertakes options studies and design integration.</p>
                             </div>

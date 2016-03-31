@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Water Bond Shipyard | Home</title>
+        <title>WATERBOND SHIPYARD BD LTD. | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -17,7 +17,7 @@
                     <h3>We offer <br>Different Services</h3>
                 </div>
                 <div class="text-box">
-                    <p>Water Bond Shipyard services includes:<br> Ship Building, Ship Repair, <br>General Engineering, After Sales, Landing Station</p>
+                    <p>WATERBOND SHIPYARD BD LTD. services includes:<br> Ship Building, Ship Repair, <br>General Engineering, After Sales, Landing Station</p>
                 </div>
             </div>
         </section>
@@ -113,7 +113,7 @@
                                             <img src="images/accrodion/1-1.jpg" alt="Awesome Image"/>
                                         </div>
                                         <div class="content-box">
-                                            <p>Water Bond Shipyard Ltd's mission is to develop facilities and infrastructure to satisfy the needs and demands
+                                            <p>WATERBOND SHIPYARD BD LTD.'s mission is to develop facilities and infrastructure to satisfy the needs and demands
                                                 of all national and international maritime sectors by providing highest quality services to build and repair all types of marine and class vessel/craft by the year 2020.</p>
                                             <ul>
                                                 <li><a href="about.php"><i class="fa fa-long-arrow-right"></i> About</a></li>
@@ -132,7 +132,7 @@
                                             <img src="images/accrodion/1-1.jpg" alt="Awesome Image"/>
                                         </div>
                                         <div class="content-box">
-                                            <p>Water Bond Shipyard Ltd is to develop manufacturing and building ships of at least 6000 DWT by the year 2020 and upgrade its present infrastructure and human resources up to the international shipbuilding standard.</p>
+                                            <p>WATERBOND SHIPYARD BD LTD. is to develop manufacturing and building ships of at least 6000 DWT by the year 2020 and upgrade its present infrastructure and human resources up to the international shipbuilding standard.</p>
                                             <ul>
                                                 <li><a href="about.php"><i class="fa fa-long-arrow-right"></i> About</a></li>
                                             </ul>
@@ -152,7 +152,7 @@
                                         <div class="content-box">
                                             <p>With its strong engineering disciplines and fully integrated, self-sufficient fabrication facilities, Davie’s versatility has enabled it to leverage the best practices and transferable skills acquired from two centuries of shipbuilding to provide products and services for industries including natural resources, rail, hydro-electric and nuclear power, defence and more.</p>
                                             <ul>
-                                                <li><a href="about.php"><i class="fa fa-long-arrow-right"></i> About</a></li>
+                                                <li><a href="about.php"><i class="fa fa-long-arrow-right"></i>Read More</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -166,8 +166,8 @@
                         </div>
                         <div class="view-location">
                             <img src="images/view-location-2.png" alt="Awesome Image"/>
-                            <p>House: 27, Road: 3, Nikunja 1<br>Dhaka, Bangladesh</p>
-                            <a href="#">view our locations</a>
+                            <p><strong>House: 7, Road: 3B, Nikunja-1<br>Dhaka-1229, Bangladesh</strong></p>
+                            <!--<a href="#">view our locations</a>-->
                         </div>
                     </div>
                 </div>
