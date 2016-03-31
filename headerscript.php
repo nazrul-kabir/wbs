@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="plugins/Stroke-Gap-Icons-Webfont/style.css">
+<link rel="stylesheet" href="plugins/revolution/css/settings.css">
+<link rel="stylesheet" href="plugins/revolution/css/layers.css">
+<link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+<link rel="stylesheet" href="plugins/flaticon/flaticon.css">
+<link href="plugins/jquery-ui-1114/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="plugins/owlcarousel-2/assets/owl.carousel.css">
+<link rel="stylesheet" href="plugins/owlcarousel-2/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="plugins/animate.min.css">
+<link rel="stylesheet" href="plugins/fancyapps-fancyBox/source/jquery.fancybox.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
