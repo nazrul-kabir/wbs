@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-4 col-sm-6 footer-widget">
                 <div class="title">
-                    <h3><span>Quick Links</span></h3>
+                    <h3><span>Company Info</span></h3>
                 </div>
                 <ul class="contact-infos">
                     <li>

@@ -119,56 +119,6 @@ if ($result) {
         </section>
 
 
-        <section class="request-qoute faq-section sec-padding service-page">
-            <div class="thm-container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="sec-title">
-                            <h2><span>Our locations</span></h2>
-                        </div>
-                        <div class="view-location">
-                            <img src="images/view-location.png" alt="Awesome Image"/>
-                            <p></p>
-                            <a href="#">view our locations</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="sec-title">
-                            <h2><span>request a quote</span></h2>
-                        </div>
-                        <form action="includes/sendemail.php" class="contact-form">
-                            <div class="form-grp full">
-                                <input type="text" name="name" placeholder="Name">
-                            </div>
-                            <div class="form-grp full">
-                                <input type="text" name="email" placeholder="Email*">
-                            </div>
-                            <div class="form-grp-box">
-                                <div class="form-grp half">
-                                    <select class="select-menu" name="selectMenu">
-                                        <option value="default">Choose Something...</option>	
-                                        <option value="Ware Housing">Ware Housing</option>	
-                                        <option value="Ware Housing">Ware Housing</option>	
-                                        <option value="Ware Housing">Ware Housing</option>	
-                                        <option value="Ware Housing">Ware Housing</option>	
-                                        <option value="Ware Housing">Ware Housing</option>	
-                                    </select>
-                                </div>
-                                <div class="form-grp half">
-                                    <input type="text" name="subject" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="form-grp">
-                                <textarea name="message" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="thm-btn">Submit Now <i class="fa fa-arrow-circle-right"></i></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
         <section class="footer-top">
             <div class="thm-container">
                 <div class="row">

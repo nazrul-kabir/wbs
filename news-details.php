@@ -1,6 +1,6 @@
 <?php
 include './config/config.php';
-$news_id ='';
+$news_id = '';
 $news_title = '';
 $news_details = '';
 $news_status = 'Inactive';
@@ -23,7 +23,7 @@ if ($result) {
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title><?php echo $news_title; ?> | Water Bond Shipyard</title>
+        <title><?php echo $news_title; ?> | Waterbond Shipyard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php include './headerscript.php'; ?>
     </head>
@@ -51,13 +51,23 @@ if ($result) {
                                 <h2><span>OUR SERVICES</span></h2>
                             </div>
                             <div class="categories">
-                                <ul>
-                                    <li class="active"><a href="services-building.php">Ship Building</a></li>
-                                    <li><a href="services-repair.php">Ship Repair</a></li>
-                                    <li><a href="services-engineering.php">General Engineering</a></li>
-                                    <li><a href="services-sales.php">After Sales</a></li>
-                                    <li ><a href="services-landing.php">Landing Station</a></li>
-                                </ul>
+                                <?php
+                                $arrayService = array();
+                                $sql = "SELECT * FROM services WHERE service_status='Active' ORDER BY service_id DESC";
+                                $result = mysqli_query($con, $sql);
+                                if ($result) {
+                                    while ($obj = mysqli_fetch_object($result)) {
+                                        $arrayService[] = $obj;
+                                    }
+                                }
+                                ?>
+                                <?php if (count($arrayService) > 0): ?>
+                                    <ul class="link-list">
+                                        <?php foreach ($arrayService AS $service): ?>
+                                            <li><a href="services_details.php?id=<?php echo $service->service_id; ?>"><?php echo $service->service_title; ?></a></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>
@@ -70,8 +80,8 @@ if ($result) {
                                 <div class="meta-info">
                                     <div class="date-box">
                                         <div class="inner-box">
-                                            <b><?php echo date('d',  strtotime($news_created_on)); ?></b>
-                                            <?php echo date('M',  strtotime($news_created_on)); ?>
+                                            <b><?php echo date('d', strtotime($news_created_on)); ?></b>
+                                            <?php echo date('M', strtotime($news_created_on)); ?>
                                         </div>
                                     </div>
                                     <div class="content-box">
@@ -95,7 +105,7 @@ if ($result) {
                             <p>Contact us now to get quote for all your global <br>shipping and cargo need.</p>
                         </div>
                         <div class="col-md-6">
-                            <a class="thm-btn" href="contact.php">Contact Us <i class="fa fa-arrow-circle-right"></i></a>
+                            <a class="thm-btn" href="contact-us.php">Contact Us <i class="fa fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
                 </div>
