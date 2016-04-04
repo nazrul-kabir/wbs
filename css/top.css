@@ -1,0 +1,17 @@
+.back-to-top {
+    position: fixed;
+    bottom: 1em;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #13314C;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    border-radius: 8px;
+    width: 50px;
+}
+
+.back-to-top:hover {    
+    background-color: white;
+}

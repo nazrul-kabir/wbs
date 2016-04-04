@@ -166,8 +166,10 @@
                         </div>
                         <div class="view-location">
                             <img src="images/view-location-2.png" alt="Awesome Image"/>
-                            <p><strong>House: 7, Road: 3B, Nikunja-1<br>Dhaka-1229, Bangladesh</strong></p>
-                            <!--<a href="#">view our locations</a>-->
+                            
+                            <p style="margin: 0px;padding: 0px;text-decoration: underline;"><strong>Head Office:</strong></p>
+                            <p style="margin: 0px;padding: 0px;"><strong>House: 7, Road: 3B, Nikunja-1<br>Dhaka-1229, Bangladesh</strong></p>
+                            
                         </div>
                     </div>
                 </div>

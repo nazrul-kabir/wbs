@@ -102,5 +102,9 @@
         <div class="pull-right">
             <p>Created by: <a href="http://www.arkhairul.com" target="_blank">MK IT Geeks</a></p>
         </div>
+        <a href="#" class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
     </div>
+
 </section>
+
